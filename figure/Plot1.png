@@ -20,4 +20,4 @@ title(main="Golbal Active Power")
 # Save as PNG File:
 dev.copy(png,file = "Plot1.png")
 dev.off()
-](figure/Plot1.png) 
+]
