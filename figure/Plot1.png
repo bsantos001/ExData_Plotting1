@@ -1,7 +1,5 @@
 ### Plot 1
-
-
-![# Reading the data:
+# Reading the data:
 database <- read.table("household_power_consumption.txt",sep=";",header=TRUE,na.strings="?")                                                                                              
 Date <- paste(database$Date,database$Time)
 date <- strptime(Date,"%d/%m/%Y %H:%M:%S")
@@ -20,4 +18,3 @@ title(main="Golbal Active Power")
 # Save as PNG File:
 dev.copy(png,file = "Plot1.png")
 dev.off()
-]
